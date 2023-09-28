@@ -1,0 +1,28 @@
+/* Links */
+.linkIndex {
+    margin: 10px;
+}
+
+.imgSize {
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+}
+
+table {
+    margin-left: 50px;
+    justify-content: center;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+footer {
+    margin-top: 300px;
+}
