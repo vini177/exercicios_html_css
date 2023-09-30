@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&display=swap');
+
+
+
+/* classes */
+.mainNav {
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #003346;
+}
+
+.navBorder {
+  border-right: 1px solid;
+  padding: 20px;
+}
+
+.mainTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-family: 'Courgette', cursive;
+  font-size: 100px;
+  color: #003346;
+}
+
+.mainSubtitle {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
+
+.mainSection {
+  display: flex;
+}
+
+.mainArticle {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: white;
+  line-height: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.mainArticleTitle {
+  padding-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+}
+
+.mainArticleButton {
+  width: 180px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #061523;
+  cursor: pointer;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  &:hover {
+    background-color: #A0512D;
+    transform: scale(1.05);
+  }
+}
+
+.mainSectionAside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  /* width: 100em; */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #003346;
+}
+
+.asideTitles {
+  margin-bottom: 20px;
+  color: #A0512D;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+
+.asideCategories {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.searchBar {
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.textLink {
+  color: #107dac;
+}
+
+.selectedLink {
+  color: #A0512D;
+}
+
+/* tags */
+body {
+  background-color: beige;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A0512D;
+}
+
+span {
+  color: #A0512D;
+}
