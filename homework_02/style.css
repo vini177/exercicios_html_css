@@ -1,0 +1,179 @@
+/* estilos gerais */
+
+.headerStyle {
+  display: flex;
+  text-align: center;
+  background: #E2DDD8;
+  padding: 10px 0px 10px 0px;
+}
+
+.navImageBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.navContent {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.navImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+
+.navTitle {
+  display: flex;
+  padding: 20px;
+  padding-right: 50px;
+}
+
+.navLinks {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.pageTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footerStyle {
+  display: flex;
+  background: #E2DDD8;
+  padding: 10px 0px 10px 0px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.footerContent > em {
+  font-style: italic;
+}
+
+/* estilos home */
+
+.sectionPos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.sectionContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 270px;
+  height: 470px;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+.sectionImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+}
+
+.sectionNames {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pPos {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #353434;
+  color: white;
+}
+
+.mainP {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  font-size: 20px;
+  padding: 30px 0px 30px 0px;
+}
+
+.mapContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+  margin-bottom: 30px; 
+}
+
+/* estilos sobre */
+
+.vidContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.pSobre {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* estilos contato */
+
+.formPos {
+  display: flex;
+  justify-content: center;
+}
+
+.formPos > div {
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.formContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  padding: 30px 0px 30px 30px;
+  font-size: 18px;
+}
+
+.formButton {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #353434;
+  color: white;
+}
