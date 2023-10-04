@@ -1,0 +1,201 @@
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+  background-color: black;
+  color: white;
+}
+
+.mainLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: end;
+  width: 30%;
+}
+
+.mainUl {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 110px;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 20px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;  
+  gap: 20px;
+}
+
+.divNoticia1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.sectionTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.noticia1 {
+  width: 227px;
+  height: 150px;
+  background-color: #C4C4C4;
+}
+
+.divNoticia2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.noticia2 {
+  width: 227px;
+  height: 150px;
+  background-color: #C4C4C4;
+}
+
+.divNoticia3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.noticia3 {
+  width: 227px;
+  height: 150px;
+  background-color: #C4C4C4;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.divPropaganda {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.propaganda {
+  width: 227px;
+  height: 250px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.titlePropaganda {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.rightCont {
+  display: flex;
+  width: fit-content;
+  gap: 20px;
+}
+
+.contentLeft {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 20px;
+}
+
+.boxContLeft {
+  display: flex;
+  width: 227px;
+  gap: 10px;
+}
+
+.bermudas1 {
+  width: 113px;
+  height: 70px;
+  background-color: #C4C4C4;
+}
+
+.titleBermudas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.tela3Container {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 20px;
+}
+
+.tela3Section1 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 20px;
+}
+
+.tela3Cont {
+  width: 535px;
+  height: 324px;
+  background-color: #C4C4C4;
+}
+
+.tela3Section2 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 20px;
+}
+
+.tela3Rec {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tela3Side {
+  width: 165px;
+  height: 120px;
+  background-color: #C4C4C4;
+}
+
+.tela3RecTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
