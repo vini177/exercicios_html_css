@@ -199,3 +199,31 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+.tela4Cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.tela4Left {
+  width: 350px;
+  height: 400px;
+  background: #C4C4C4;
+}
+
+.tela4Sub {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 20px;
+  color: white;
+  background-color: #2C2C2C;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.tela4Right {
+  width: 350px;
+  height: 170px;
+  background-color: #C4C4C4;
+}
