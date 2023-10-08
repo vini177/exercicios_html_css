@@ -1,0 +1,126 @@
+.containerMain {
+  display: grid;
+  grid-template-areas:
+    'navbar navbar navbar'
+    'containerCont containerCont containerCont'
+    'containerCont containerCont containerCont'
+    'containerCont containerCont containerCont'
+    'containerCont containerCont containerCont';
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 20px;
+}
+
+.navbar {
+  display: grid;
+  grid-area: navbar;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background: #1D1E20;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.navItems {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.navItems > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  &:hover {
+    color: #C4C4C4;
+  }
+}
+
+.containerCont {
+  display: grid;
+  grid-area: containerCont;
+  grid-template-areas: 
+  'containerNews containerNews containerNews'
+  'containerAdvItems containerAdvItems containerAdvItems'
+  'containerAdvItems containerAdvItems containerAdvItems'
+  'containerAdvItems containerAdvItems containerAdvItems';
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerNews {
+  display: grid;
+  grid-area: containerNews;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 20px;
+}
+
+.figNews {
+  display: grid;
+  gap: 9px;
+  font-size: 18px;
+}
+
+.imgNews {
+  width: 227px;
+  height: 150px;
+  background-color: #C4C4C4;
+}
+
+.containerAdvItems {
+  display: grid;
+  grid-area: containerAdvItems;
+  grid-template-areas: 
+  'figAdv containerItems containerItems'
+  'figAdv containerItems containerItems'
+  'figAdv containerItems containerItems';
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.figAdv {
+  display: grid;
+  grid-area: figAdv;
+  text-align: center;
+  font-size: 18px;
+  gap: 5px;
+}
+
+.imgAdv {
+  width: 227px;
+  height: 204px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+}
+
+.containerItems {
+  display: grid;
+  grid-area: containerItems;
+  grid-template-areas: 
+  'figItem figItem'
+  'figItem figItem'
+  'figItem figItem';
+  gap: 20px;
+}
+
+.figItem {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  width: 227px;
+  align-items: center;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.imgItem {
+  width: 113px;
+  height: 70px;
+  background-color: #C4C4C4;
+}

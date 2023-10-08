@@ -1,0 +1,88 @@
+.containerMain {
+  display: grid;
+  grid-template-areas:
+    'navbar navbar'
+    'containerCont containerCont';
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 20px;
+}
+
+.navbar {
+  display: grid;
+  grid-area: navbar;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background: #1D1E20;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.navItems {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.navItems>li>a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  &:hover {
+    color: #C4C4C4;
+  }
+}
+
+.containerCont {
+  display: grid;
+  grid-area: containerCont;
+  grid-template-areas: 
+  'containerVid containerRec';
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerVid {
+  display: grid;
+  grid-area: containerVid;
+  justify-content: center;
+  gap: 20px;
+}
+
+.figVid {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.imgVid { 
+  width: 535px;
+  height: 324px;
+  background-color: #C4C4C4;
+}
+
+.containerRec {
+  display: grid;
+  grid-area: containerRec;
+  justify-content: center;
+  gap: 20px;
+}
+
+.figRec {
+  display: grid;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.imgRec {
+  width: 165px;
+  height: 120px;
+  background-color: #C4C4C4;
+}
