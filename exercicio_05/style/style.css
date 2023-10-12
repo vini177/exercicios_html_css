@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+:root {
+  --bg-primary-color: #0e0e0e;
+  --text-primary-color: #fff;
+  --text-secondary-color: #7a7a7a;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #0e0e0e;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  font-size: 18px;  
+}
+
+#navigation ul {
+  margin-right: 25px;
+}
+
+.navbar .navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--text-primary-color);
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;  
+}
+
+.navbar-nav .nav-item .active {
+  font-weight: 700;
+  color: var(--text-secondary-color);
+}
+
+.navbar-nav .nav-link {
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--text-secondary-color);
+}
+
+#navigation button {
+  border-radius: 0;
+  width: 180px;
+  height: 55px;
+  font-weight: 400;
+}
+
+#navigation button:hover {
+  font-weight: 800;
+  
+}
+
+/* CONTENT */
+#mainText {
+  display: grid;
+  text-align: center;
+  margin-top: 70px;
+}
+
+#mainText .display-1 {
+  color: var(--text-primary-color);
+  font-size: 100px;
+  font-weight: 500;
+}
+
+#mainText .container {
+  display: grid;
+  text-align: center;
+  width: 660px;
+}
+
+#mainText .lead {
+  color: var(--text-primary-color);
+  font-weight: 400;
+}
+
+/* CARDS */
+#containerCards {
+  padding: 2em 0.3em;
+  margin-top: 4em;
+}
+
+#containerCards .card {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  text-align: center;
+  background-color: transparent;
+  color: var(--text-primary-color);
+}
+
+#containerCards .card img {
+  height: 350px;
+  width: 450px;
+  border-radius: 5px;
+  border: 2px solid #0e0e0e;
+}
+
+@media (min-width: 766px) {
+  #containerCards .card img {
+    width: 250px;
+  }
+}
+
+@media (min-width: 990px) {
+  #containerCards .card img {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1198px) {
+  #containerCards .card img {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1398px) {
+  #containerCards .card img {
+    width: 450px;
+  }
+}
