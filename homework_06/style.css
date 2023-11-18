@@ -1,0 +1,157 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"); */
+
+@import url("https://fonts.cdnfonts.com/css/century-gothic-paneuropean");
+
+.main-body {
+	font-family: "Century Gothic Paneuropean", sans-serif;
+	background-color: #0f1320;
+	color: #fff;
+}
+
+/* NAVBAR */
+.nav-btn {
+	color: #fff;
+}
+
+.sign-in-link {
+	background-color: #fff;
+	background-image: linear-gradient(#508d69, #9ade7b);
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: green 1px 0 5px;
+	font-weight: 500;
+}
+
+.sign-up-btn {
+	background-color: transparent;
+	border-radius: 5em;
+	padding: 8px 25px;
+	border-color: #9ade7b;
+	color: #fff;
+	font-weight: 500;
+}
+
+.sign-up-btn:hover {
+	background-color: #22a75d;
+	transition: all 0.3s ease;
+}
+
+/* MAIN CONTENT */
+.sm-title {
+	font-size: 14px;
+	font-weight: 700;
+	background-color: #fff;
+	background-image: linear-gradient(to top, #2b3087, #00b4ec);
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.main-content .lead {
+	font-size: 14px;
+	color: #dde2ff;
+}
+
+.learn-more-btn {
+	z-index: 1;
+	font-size: 14px;
+	font-weight: 700;
+	background: #22a75d;
+	box-shadow: 0px 15px 25px 0px rgba(34, 167, 93, 0.25);
+	border-radius: 52px;
+	padding: 8px 25px;
+	color: #fff;
+}
+
+.first-img {
+	margin-top: -7.3em;
+	z-index: -1;
+	position: relative;
+}
+
+/* CARDS */
+.creators-card,
+.holders-card {
+	background-color: #171b29;
+	border-radius: 1.6em;
+}
+
+.green-span {
+	color: #22a75d;
+	text-decoration: underline;
+}
+
+.blue-span {
+	color: #2278d4;
+	text-decoration: underline;
+}
+
+.green-frame {
+	width: 70px;
+	height: 70px;
+	background-color: #22a75d;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	filter: drop-shadow(0px 15px 25px rgba(34, 167, 93, 0.25));
+}
+
+.blue-frame {
+	width: 70px;
+	height: 70px;
+	background-color: #2278d4;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	filter: drop-shadow(0px 15px 25px rgba(34, 120, 212, 0.25));
+}
+
+.green-learn-more {
+	color: #22a75d;
+	font-size: 14px;
+}
+
+.blue-learn-more {
+	color: #2278d4;
+	font-size: 14px;
+}
+
+/* ABOUT */
+.about-cont {
+	background-color: #fff;
+	border-top-right-radius: 150px;
+	color: #0f1320;
+}
+
+.subtitle,
+.about-cont .lead {
+	font-size: 14px;
+}
+
+/* WEENTAR */
+.weentar-cont {
+	border-bottom-left-radius: 80px;
+}
+
+.weentar-subtitle,
+.weentar-cont .lead {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.weentar-cont .lead {
+	background: -webkit-linear-gradient(#fff, #414141);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.weentar-link {
+	color: #22a75d;
+	text-decoration: dotted underline;
+}
