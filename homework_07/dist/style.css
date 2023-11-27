@@ -1,0 +1,116 @@
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./styles/style.scss ***!
+  \************************************************************************************************************/
+.main-body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 900px;
+}
+.main-body .main-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 980px;
+  height: 496px;
+}
+
+.text-cont {
+  padding-right: 32px;
+  color: #1c1e21;
+  padding-bottom: 200px;
+}
+.text-cont .logo-img {
+  width: 320px;
+  height: 206px;
+  margin-bottom: -100px;
+  margin-left: -30px;
+}
+.text-cont p {
+  font-size: 28px;
+  width: 500px;
+}
+
+.form-cont {
+  background-color: #fff;
+  color: #1c1e21;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  width: 396px;
+  height: 350px;
+  padding: 20px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.form-cont input {
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  color: #1d2129;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+}
+.form-cont input:focus {
+  outline: 1px solid #1877f2;
+}
+.form-cont .login-btn {
+  cursor: pointer;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  width: 364px;
+  height: 48px;
+}
+.form-cont a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.form-cont a:hover {
+  text-decoration: underline;
+}
+.form-cont hr {
+  color: #1c1e21;
+  opacity: 0.4;
+}
+.form-cont .new-acc-btn {
+  cursor: pointer;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  width: 166px;
+  height: 48px;
+}
+.form-cont .new-acc-btn:hover {
+  background-color: #36a420;
+  transition: all 0.3s ease;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-box p {
+  font-size: 14px;
+  text-align: center;
+  width: 396px;
+}
+.form-box p a {
+  text-decoration: none;
+  color: #1c1e21;
+  font-weight: bold;
+}
+.form-box p a:hover {
+  text-decoration: underline;
+}

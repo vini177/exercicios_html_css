@@ -1,0 +1,136 @@
+$default-font: Arial, Helvetica, sans-serif;
+$bg-color: #f0f2f5;
+$facebook-blue: #1877f2;
+$main-text-color: #1c1e21;
+$green-btn: #42b72a;
+
+.main-body {
+  font-family: $default-font;
+  background-color: $bg-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 900px;
+
+  .main-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    height: 496px;
+  }
+}
+
+.text-cont {
+  padding-right: 32px;
+  color: $main-text-color;
+  padding-bottom: 200px;
+  
+  .logo-img {
+    width: 320px;
+    height: 206px;
+    margin-bottom : -100px;
+    margin-left: -30px;
+  }
+
+  p {
+    font-size: 28px;
+    width: 500px;
+  }
+}
+
+.form-cont {
+  background-color: #fff;
+  color: $main-text-color;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  width: 396px;
+  height: 350px;
+  padding: 20px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+  input {
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    color: #1d2129;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+
+    &:focus {
+      outline: 1px solid $facebook-blue;
+    }
+  }
+
+  .login-btn {
+    cursor: pointer;
+    background-color: $facebook-blue;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    width: 364px;
+    height: 48px;
+  }
+
+  a {
+    font-size: 14px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  hr {
+    color: #1c1e21;
+    opacity: 0.4;
+  }
+
+  .new-acc-btn {
+    cursor: pointer;
+    background-color: $green-btn;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    width: 166px;
+    height: 48px;
+
+    &:hover {
+      background-color: #36a420;
+      transition: all 0.3s ease;
+    }
+
+  }
+  
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 14px;
+    text-align: center;
+    width: 396px;
+    
+    a {
+      text-decoration: none;
+      color: #1c1e21;
+      font-weight: bold;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+  }
+
+  }
+}
