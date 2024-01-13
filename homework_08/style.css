@@ -66,7 +66,8 @@
 }
 
 .section-one-box,
-.section-two-box {
+.section-two-box,
+.section-three-box {
   width: 1200px;
 }
 
@@ -117,7 +118,7 @@
   color: rgb(9, 30, 66);
 }
 
-.section-two-tittle {
+.section-two-title {
   width: 632px;
 }
 
@@ -144,4 +145,74 @@
 
 .section-two-img {
   height: 510px;
+}
+
+/* SECTION 3 */
+.card {
+  width: 348px;
+  height: 244px;
+  padding: 16px;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+}
+
+.card:hover {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 0.5rem 1rem 0px;
+  cursor: pointer;
+}
+
+.card-title,
+.card-text {
+  width: 299px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.cards-box {
+  gap: 120px;
+  margin-bottom: 80px;
+}
+
+.project-color {
+  background-color: #ff7452;
+  width: 100%;
+  height: 48px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.meetings-color {
+  background-color: #2684ff;
+  width: 100%;
+  height: 48px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.onboarding-color {
+  background-color: #57d9a3;
+  width: 100%;
+  height: 48px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.section-three-footer {
+  gap: 90px;
+}
+
+.section-three-btn {
+  background-color: #fff;
+  border: 1px solid #0065ff;
+  border-radius: 0.3rem;
+  width: 195px;
+  height: 50px;
+  transition: all 0.4s ease-out;
+}
+
+.section-three-btn:hover {
+  background-color: #deebff;
 }
